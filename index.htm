@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="weather-app">
+        <!-- Weather Card -->
+        <div class="weather-card">
+            <!-- Title -->
+            <div class="weather-title">
+                <h1>Weather App</h1>
+                <p>Check Weather by searching <span class="city-name">City Name</span></p>
+            </div>
+
+            <!-- Search Area -->
+            <div class="search-area">
+                <input id="cityInput" type="text" placeholder="Enter city name" spellcheck="false">
+                <button type="submit" id="searchBtn">&#128269;</button>
+            </div>
+
+            <!-- Error Message -->
+            <div class="error-message">
+                <h4 class="error-text">Error finding the city... Please search again</h4>
+            </div>
+
+            <!-- Weather Display -->
+            <div class="weather-display">
+                <img src="" class="weather-icon" alt="Weather Icon">
+                <p class="weather-description"></p>
+                <h1 class="temperature"></h1>
+                <h2 class="city-name"></h2>
+
+                <!-- Weather Details -->
+                <div class="weather-details">
+                    <div class="weather-detail">
+                        <img src="img/humidity.png" alt="Humidity Icon">
+                        <div>
+                            <p class="humidity"></p>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+                    <div class="weather-detail">
+                        <img src="img/wind.png" alt="Wind Icon">
+                        <div>
+                            <p class="wind-speed"></p>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
