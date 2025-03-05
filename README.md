@@ -21,7 +21,7 @@ A simple weather application that allows users to search for any city and get re
    ```bash
    git clone https://github.com/your-username/weather-app.git
    cd weather-app
-2.**Open the project in a browser**
+2. **Open the project in a browser**
 Simply open the index.html file in your browser
 
 ## **Usage**
