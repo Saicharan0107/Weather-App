@@ -29,3 +29,9 @@ Simply open the index.html file in your browser
 - Click the search button or press Enter
 - View the temperature, humidity, wind speed, and weather conditions
 - If the city is not found, an error message will be displayed
+
+**API Key Configuration**
+The app uses the OpenWeatherMap API. To use it:
+Get your API key from OpenWeatherMap
+Replace the API key in script.js:
+const appKey=`&appid=YOUR_API_KEY_HERE`;
