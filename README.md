@@ -24,7 +24,7 @@ A simple weather application that allows users to search for any city and get re
 2.**Open the project in a browser**
 Simply open the index.html file in your browser
 
-#**Usage**
+## **Usage**
 - Enter a city name in the search bar
 - Click the search button or press Enter
 - View the temperature, humidity, wind speed, and weather conditions
